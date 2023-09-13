@@ -1,0 +1,8 @@
+reset
+clear
+as public-test_trap_rti_ldr_str public-test_trap_rti_ldr_str
+ld public-test_trap_rti_ldr_str
+break set HALT
+trace on public-test_trap_rti_ldr_str.txt
+continue
+trace off

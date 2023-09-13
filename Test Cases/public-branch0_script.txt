@@ -1,0 +1,8 @@
+reset
+clear
+as public-branch0 public-branch0
+ld public-branch0
+break set HALT
+trace on public-branch0.txt
+continue
+trace off

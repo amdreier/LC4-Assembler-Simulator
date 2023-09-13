@@ -1,0 +1,8 @@
+reset
+clear
+as public-test_basic public-test_basic
+ld public-test_basic
+break set HALT
+trace on public-test_basic.txt
+continue
+trace off

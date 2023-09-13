@@ -1,0 +1,8 @@
+reset
+clear
+as p2_test_cases/public-BR_arith public-BR_arith
+ld p2_test_cases/public-BR_arith
+break set HALT
+trace on p2_test_cases/public-BR_arith.txt
+continue
+trace off
